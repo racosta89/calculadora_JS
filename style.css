@@ -13,10 +13,11 @@ body {
   align-items: center;
 }
 .calculadora {
+
   display: grid;
   grid-template-columns: repeat(4, 75px);
   grid-template-rows: 160px repeat(5, 75px);
-  background-color: #50c65e;
+  background-color: black;
   border-radius: 25px;
   padding: 30px;
   box-shadow: 3px 3px 0px 1px #2b5422;
@@ -27,30 +28,35 @@ input {
   padding: 50px;
   display: flex;
   align-items: flex-end;
-  background-color: black;
+  background-color: rgb(240, 229, 229);
   margin: 5px 5px 20px 5px;
   border-radius: 15px;
-  box-shadow: 5px 5px 3px 3px #2b5422;
+  border: solid black;
+  gap: 10px;
+ 
 }
 .igual {
   grid-column: span 2;
 }
 button {
+  border: solid black;
   cursor: pointer;
   margin: 1px;
   padding: 0;
   border-radius: 35px;
   font-size: 1.5rem;
-  color: #50c65e;
-  background-color: black;
+  color: red;
+  gap: 10px;
+  background-color: rgb(240, 229, 229);
 }
 button:hover {
-  background-color: #50c65e;
+  background-color: rgb(240, 229, 229);;
   color: black;
 }
 
 #pantalla {
   font-size: 40px;
-  color: #50c65e;
+  color: red;
   text-align: right;
+  justify-items: right;
 }

@@ -12,7 +12,7 @@ function borrar(){
 //Calculos Suma-Resta-Multiplicacion-División//
 
 function calcular(){
-  let pantaresult = document.getElementById('pantalla').value
-  let total = eval(pantaresult)
+  let pantaresultado = document.getElementById('pantalla').value
+  let total = eval(pantaresultado)
   document.getElementById('pantalla').value = total
 }
