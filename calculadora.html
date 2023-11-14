@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="contenedorpadre">
+      <div class="calculadora">
+        <input type="text" id="pantalla" placeholder="0" />
+        <button onclick="borrar()">C</button>
+        <button onclick="imprimir('DEL')">DEL</button>
+        <button onclick="imprimir('%')">%</button>
+        <button onclick="imprimir('/')">/</button>
+
+        <button onclick="imprimir('7')">7</button>
+        <button onclick="imprimir('8')">8</button>
+        <button onclick="imprimir('9')">9</button>
+        <button onclick="imprimir('*')">*</button>
+
+        <button onclick="imprimir('4')">4</button>
+        <button onclick="imprimir('5')">5</button>
+        <button onclick="imprimir('6')">6</button>
+        <button onclick="imprimir('-')">-</button>
+
+        <button onclick="imprimir('1')">1</button>
+        <button onclick="imprimir('2')">2</button>
+        <button onclick="imprimir('3')">3</button>
+        <button onclick="imprimir('+')">+</button>
+
+        <button onclick="imprimir('0')">0</button>
+        <button onclick="imprimir('.')">.</button>
+        <button onclick="resultadoTotal()" class="igual">=</button>
+      </div>
+    </div>
+    <script src="/main.js"></script>
+  </body>
+</html>
