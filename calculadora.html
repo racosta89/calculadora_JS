@@ -9,32 +9,34 @@
   <body>
     <div class="contenedorpadre">
       <div class="calculadora">
-        <input type="text" id="pantalla" placeholder="0" />
+        <input type="text" id="pantalla" placeholder="0"/>
         <button onclick="borrar()">C</button>
-        <button onclick="imprimir('DEL')">DEL</button>
-        <button onclick="imprimir('%')">%</button>
-        <button onclick="imprimir('/')">/</button>
 
-        <button onclick="imprimir('7')">7</button>
-        <button onclick="imprimir('8')">8</button>
-        <button onclick="imprimir('9')">9</button>
-        <button onclick="imprimir('*')">*</button>
+        <button onclick="mostrar('%')">%</button>
+        <button onclick="mostrar('/')">/</button>
+        <button onclick="mostrar('Back')">Back</button>
+        
 
-        <button onclick="imprimir('4')">4</button>
-        <button onclick="imprimir('5')">5</button>
-        <button onclick="imprimir('6')">6</button>
-        <button onclick="imprimir('-')">-</button>
+        <button onclick="mostrar('7')">7</button>
+        <button onclick="mostrar('8')">8</button>
+        <button onclick="mostrar('9')">9</button>
+        <button onclick="mostrar('*')">*</button>
 
-        <button onclick="imprimir('1')">1</button>
-        <button onclick="imprimir('2')">2</button>
-        <button onclick="imprimir('3')">3</button>
-        <button onclick="imprimir('+')">+</button>
+        <button onclick="mostrar('4')">4</button>
+        <button onclick="mostrar('5')">5</button>
+        <button onclick="mostrar('6')">6</button>
+        <button onclick="mostrar('-')">-</button>
 
-        <button onclick="imprimir('0')">0</button>
-        <button onclick="imprimir('.')">.</button>
-        <button onclick="resultadoTotal()" class="igual">=</button>
+        <button onclick="mostrar('1')">1</button>
+        <button onclick="mostrar('2')">2</button>
+        <button onclick="mostrar('3')">3</button>
+        <button onclick="mostrar('+')">+</button>
+
+        <button onclick="mostrar('0')">0</button>
+        <button onclick="mostrar('.')">.</button>
+        <button onclick="x()" class="igual">=</button>
       </div>
     </div>
-    <script src="/main.js"></script>
+    <script src="/index.js"></script>
   </body>
 </html>
