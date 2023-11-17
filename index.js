@@ -9,6 +9,18 @@ function borrar(){
   document.getElementById('pantalla').value = '';
 }
 
+
+// funcion para borrar un número//
+function back() {
+  let pantalla = document.getElementById('pantalla').value;
+
+  if (pantalla.length > 0) {
+    pantalla = pantalla.slice(0, -1);
+    document.getElementById('pantalla').value = pantalla;
+  }
+}
+
+
 //Calculos Suma-Resta-Multiplicacion-División//
 
 function calcular(){
@@ -16,3 +28,7 @@ function calcular(){
   let total = eval(pantaresultado)
   document.getElementById('pantalla').value = total
 }
+
+
+//
+if(document.getElementById('pantalla').value === 0 || = )
