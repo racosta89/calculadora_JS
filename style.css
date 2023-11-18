@@ -1,26 +1,31 @@
 * {
-  margin: 0;
-  padding: 0;
+  
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 body {
+  
   margin: 10px 10px 10px 10px;
 }
 .contenedorpadre {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 .calculadora {
 
   display: grid;
   grid-template-columns: repeat(4, 75px);
   grid-template-rows: 160px repeat(5, 75px);
-  background-color: black;
-  border-radius: 25px;
+  background-color: #7C7E90;
+  border-radius: 15px;
+  border: solid #67CCD6;
   padding: 30px;
-  box-shadow: 3px 3px 0px 1px #2b5422;
+  box-shadow: 5px 5px 3px 3px #000000;
 }
 
 input {
@@ -28,35 +33,35 @@ input {
   padding: 50px;
   display: flex;
   align-items: flex-end;
-  background-color: rgb(240, 229, 229);
+  background-color: #000  ;
   margin: 5px 5px 20px 5px;
   border-radius: 15px;
-  border: solid black;
+  border: solid rgb(0, 0, 0);
   gap: 10px;
- 
+  border: solid #67CCD6;
 }
 .igual {
   grid-column: span 2;
 }
 button {
-  border: solid black;
+  border: solid rgb(0, 0, 0);
   cursor: pointer;
   margin: 1px;
   padding: 0;
   border-radius: 35px;
   font-size: 1.5rem;
-  color: red;
+  color: rgb(0, 0, 0);
   gap: 10px;
-  background-color: rgb(240, 229, 229);
+  background-color: #67CCD6;
 }
 button:hover {
   background-color: rgb(240, 229, 229);;
-  color: black;
+  color: #67CCD6;
 }
 
 #pantalla {
   font-size: 40px;
-  color: red;
+  color: #67CCD6;
   text-align: right;
   justify-items: right;
 }

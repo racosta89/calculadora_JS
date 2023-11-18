@@ -6,11 +6,11 @@ function mostrar(valor){
 //funcion que borra la pantalla//
 
 function borrar(){
-  document.getElementById('pantalla').value = '';
+  document.getElementById('pantalla').value ='';
 }
 
-
 // funcion para borrar un número//
+
 function back() {
   let pantalla = document.getElementById('pantalla').value;
 
@@ -21,6 +21,7 @@ function back() {
 }
 
 
+
 //Calculos Suma-Resta-Multiplicacion-División//
 
 function calcular(){
@@ -28,7 +29,3 @@ function calcular(){
   let total = eval(pantaresultado)
   document.getElementById('pantalla').value = total
 }
-
-
-//
-if(document.getElementById('pantalla').value === 0 || = )
